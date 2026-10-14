@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "app": "SLICE Examiner",
+  "exportedAt": "2026-10-13T07:25:57.870Z",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "94bd1068-928d-40c1-9eb7-0b4bbc72ecd3",
+      "meta": {
+        "exam": "Block 12 Exam",
+        "subject": "Medicine",
+        "year": "Final MBBS",
+        "date": "2026-10-13",
+        "studentName": "Ali Hussain",
+        "rollNo": "01001",
+        "assessmentId": "0990019",
+        "examinerName": "Dr. Syed Hussain Raza Zaidi",
+        "caseCode": "042"
+      },
+      "status": "active",
+      "stageIndex": 1,
+      "viewStage": 4,
+      "ratings": {
+        "h1": "veryGood",
+        "h2": "excellent",
+        "h3": "veryGood",
+        "e1": "veryGood",
+        "e2": "veryGood",
+        "d2": "veryGood",
+        "d1": "veryGood",
+        "i1": "veryGood",
+        "i2": "veryGood",
+        "m2": "veryGood",
+        "m1": "veryGood",
+        "m3": "veryGood",
+        "m4": "veryGood"
+      },
+      "notes": {},
+      "timer": {
+        "kind": "assessment",
+        "stageIndex": 1,
+        "status": "running",
+        "durationMs": 120000,
+        "deadline": 1791876377770,
+        "remainingMs": 120000,
+        "startedAt": 1791876257770,
+        "pausedAt": null,
+        "totalPausedMs": 0,
+        "pauseCount": 0,
+        "expiredAt": null
+      },
+      "events": [
+        {
+          "type": "record_created",
+          "at": "2026-10-13T07:23:29.841Z"
+        },
+        {
+          "type": "timer_started",
+          "at": "2026-10-13T07:23:29.843Z",
+          "kind": "preparation",
+          "stageIndex": null,
+          "durationMs": 900000,
+          "deadline": 1791877109843
+        },
+        {
+          "type": "section_transition",
+          "at": "2026-10-13T07:23:59.830Z",
+          "kind": "preparation",
+          "stageIndex": null,
+          "reason": "doen",
+          "durationMs": 900000,
+          "elapsedMs": 29987,
+          "activeElapsedMs": 29987,
+          "pausedMs": 0,
+          "overtimeMs": 0,
+          "remainingMs": 870013,
+          "startedAt": 1791876209843,
+          "expiredAt": null,
+          "transitionedAt": 1791876239830
+        },
+        {
+          "type": "timer_started",
+          "at": "2026-10-13T07:23:59.830Z",
+          "kind": "assessment",
+          "stageIndex": 0,
+          "durationMs": 240000,
+          "deadline": 1791876479830
+        },
+        {
+          "type": "section_transition",
+          "at": "2026-10-13T07:24:17.770Z",
+          "kind": "assessment",
+          "stageIndex": 0,
+          "reason": "not done",
+          "durationMs": 240000,
+          "elapsedMs": 17940,
+          "activeElapsedMs": 17940,
+          "pausedMs": 0,
+          "overtimeMs": 0,
+          "remainingMs": 222060,
+          "startedAt": 1791876239830,
+          "expiredAt": null,
+          "transitionedAt": 1791876257770
+        },
+        {
+          "type": "timer_started",
+          "at": "2026-10-13T07:24:17.770Z",
+          "kind": "assessment",
+          "stageIndex": 1,
+          "durationMs": 120000,
+          "deadline": 1791876377770
+        }
+      ],
+      "createdAt": "2026-10-13T07:23:29.841Z",
+      "updatedAt": "2026-10-13T07:24:41.884Z",
+      "sourceVersion": "SLICE Word proforma · 15-minute version",
+      "guidanceVersion": "Draft guidance v1 · unapproved",
+      "guidance": {
+        "h1": {
+          "excellent": "A relevant, comprehensive account makes the sequence and development of the presenting problem clear and logical.",
+          "veryGood": "A clear, relevant and logical account has minor omissions that do not obscure the presenting problem.",
+          "good": "The main complaint and chronology are understandable, with some gaps in relevant detail or organization.",
+          "average": "A partly relevant account has substantial gaps or an unclear chronology that limits understanding of the problem.",
+          "belowAverage": "A fragmented or largely irrelevant account leaves the presenting problem difficult to understand.",
+          "poor": "The assessed account contains no coherent history of the presenting problem or is predominantly incorrect."
+        },
+        "h2": {
+          "excellent": "Relevant supplementary histories are explored accurately and connected to the patient’s current problem and care.",
+          "veryGood": "Relevant supplementary histories are sound, with minor omissions that have little effect on understanding the case.",
+          "good": "The main supplementary information is obtained, with some relevant omissions or limited links to the current problem.",
+          "average": "Supplementary information is incomplete, with substantial gaps in clinically relevant history.",
+          "belowAverage": "Supplementary history is superficial or poorly relevant, leaving major information gaps.",
+          "poor": "The assessed response provides no meaningful supplementary history or is predominantly incorrect."
+        },
+        "h3": {
+          "excellent": "The presentation is clear, well organized and intelligible, with appropriate terminology and an effective clinical summary.",
+          "veryGood": "The presentation communicates the case effectively, with minor lapses in organization, terminology or clarity.",
+          "good": "The presentation is understandable, with some imprecision or uneven organization that does not obscure its main meaning.",
+          "average": "The main meaning is partly communicated, but unclear structure or imprecise language substantially limits the presentation.",
+          "belowAverage": "The presentation is difficult to follow and communicates little usable clinical information.",
+          "poor": "The assessed presentation conveys no coherent, understandable account of the case."
+        },
+        "e1": {
+          "excellent": "The relevant general examination is systematic, technically sound and respectful, with findings accurately recognized.",
+          "veryGood": "The relevant examination and findings are sound, with minor omissions or technique lapses.",
+          "good": "The main relevant examination is performed competently, with some omissions or limitations in technique or findings.",
+          "average": "The examination is partially adequate, with substantial omissions or technique problems that limit the findings.",
+          "belowAverage": "The examination is markedly incomplete or technically weak, with unreliable recognition of findings.",
+          "poor": "The assessed performance shows no meaningful general examination or predominantly incorrect examination methods."
+        },
+        "e2": {
+          "excellent": "The relevant regional examination is orderly and technically sound, protects patient comfort and communicates findings accurately.",
+          "veryGood": "The regional examination and findings are sound, with minor omissions or lapses in sequence or technique.",
+          "good": "The main relevant regional examination is demonstrated, with some omissions or limitations in technique or reporting.",
+          "average": "The examination is partially relevant but substantial gaps or technique problems reduce the usefulness of findings.",
+          "belowAverage": "The examination is poorly selected, markedly incomplete or technically weak, with unreliable findings.",
+          "poor": "The assessed performance shows no meaningful relevant regional examination or predominantly incorrect methods."
+        },
+        "d1": {
+          "excellent": "A defensible provisional diagnosis is supported by accurate, coherent reasoning that integrates the relevant case findings.",
+          "veryGood": "The diagnosis is defensible and well supported, with minor omissions or imprecision in its justification.",
+          "good": "A plausible diagnosis is supported by relevant findings, with some gaps in explanation or integration.",
+          "average": "The proposed diagnosis has partial support, but substantial reasoning gaps or inconsistencies weaken its defence.",
+          "belowAverage": "The diagnosis is weakly supported or poorly matched to the findings, with major errors in reasoning.",
+          "poor": "The assessed response offers no defensible provisional diagnosis or no coherent, relevant justification."
+        },
+        "d2": {
+          "excellent": "Relevant differential diagnoses are considered and distinguished logically using accurate case-specific evidence.",
+          "veryGood": "The relevant differentials and their exclusion are sound, with minor gaps in supporting reasons.",
+          "good": "Plausible differentials are considered, with some incomplete or imprecise reasoning about their likelihood.",
+          "average": "Some relevant differentials are identified, but substantial gaps or weak reasons limit their exclusion.",
+          "belowAverage": "Differentials are poorly relevant or justified, with major errors in distinguishing alternatives.",
+          "poor": "The assessed response offers no relevant differential diagnoses or no coherent reasoning about alternatives."
+        },
+        "i1": {
+          "excellent": "Relevant routine investigations are selected appropriately and clearly justified in relation to this patient’s assessment and care.",
+          "veryGood": "Routine investigation selection and justification are sound, with minor omissions or imprecision.",
+          "good": "The main routine investigations are relevant, with some gaps in selection or clinical justification.",
+          "average": "Suggestions are partly appropriate, but substantial omissions or weak explanations limit the investigation plan.",
+          "belowAverage": "The proposed routine investigations are poorly targeted or weakly justified, with major errors.",
+          "poor": "The assessed response offers no appropriate routine investigation plan or no coherent clinical justification."
+        },
+        "i2": {
+          "excellent": "Specific investigations are appropriate to the clinical question and clearly justified by their expected contribution to diagnosis or care.",
+          "veryGood": "Specific investigation selection and justification are sound, with minor omissions or imprecision.",
+          "good": "The main specific investigations are appropriate, with some gaps in their selection or expected clinical contribution.",
+          "average": "A partly relevant plan has substantial omissions or weak links between investigations and the clinical question.",
+          "belowAverage": "Specific investigations are poorly targeted or weakly justified, with major errors in clinical reasoning.",
+          "poor": "The assessed response offers no appropriate specific investigation plan or no coherent clinical justification."
+        },
+        "m1": {
+          "excellent": "A coherent and appropriate treatment plan is clearly justified, with relevant priorities and patient-specific considerations addressed.",
+          "veryGood": "The treatment plan and justification are sound, with minor omissions that do not materially alter its appropriateness.",
+          "good": "The main treatment approach is appropriate, with some omissions or limitations in its prioritization or justification.",
+          "average": "The plan is partly appropriate, but substantial gaps or weak reasoning limit its suitability for this patient.",
+          "belowAverage": "The treatment plan is poorly matched to the patient or weakly justified, with major clinical errors.",
+          "poor": "The assessed response offers no appropriate treatment plan or no coherent justification for treatment."
+        },
+        "m2": {
+          "excellent": "Relevant treatment complications are accurately explained with clear understanding of their clinical significance for this patient.",
+          "veryGood": "Relevant complications and their significance are described soundly, with minor omissions or imprecision.",
+          "good": "The main relevant complications are recognized, with some gaps in explanation or patient-specific significance.",
+          "average": "Some complications are recognized, but substantial omissions or inaccuracies limit the explanation.",
+          "belowAverage": "Recognition of relevant complications is markedly limited or includes major inaccuracies.",
+          "poor": "The assessed response identifies no relevant treatment complications or is predominantly incorrect."
+        },
+        "m3": {
+          "excellent": "An appropriate, coherent follow-up plan explains relevant review and monitoring in relation to this patient’s ongoing care.",
+          "veryGood": "The follow-up plan is sound and patient-relevant, with minor omissions or imprecision.",
+          "good": "The main follow-up needs are addressed, with some gaps in explanation or detail.",
+          "average": "The plan partly addresses ongoing care, but substantial gaps limit its clinical usefulness.",
+          "belowAverage": "Follow-up is vague, poorly relevant or markedly incomplete for the patient’s needs.",
+          "poor": "The assessed response offers no meaningful follow-up plan or is predominantly inappropriate."
+        },
+        "m4": {
+          "excellent": "Relevant recent advances are accurately explained, with a clear appraisal of their clinical relevance and evidence status.",
+          "veryGood": "Relevant advances and their clinical relevance are described soundly, with minor omissions or imprecision.",
+          "good": "Relevant advances are described accurately overall, with some gaps in explaining their evidence or clinical relevance.",
+          "average": "Some relevant developments are identified, but substantial gaps or inaccuracies limit their interpretation.",
+          "belowAverage": "The account of advances is poorly relevant or includes major inaccuracies or unsupported claims.",
+          "poor": "The assessed response describes no relevant recent advances or is predominantly incorrect."
+        }
+      },
+      "config": {
+        "durations": [
+          240,
+          120,
+          120,
+          120,
+          300
+        ],
+        "variant": "Avicenna Medical College ",
+        "preparationEnabled": true,
+        "preparationSeconds": 900,
+        "sound": true
+      },
+      "caseChecklist": "",
+      "revision": 0,
+      "guidanceApproved": false,
+      "reviewer": "",
+      "reviewDate": ""
+    }
+  ],
+  "settings": {
+    "anchors": {
+      "h1": {
+        "excellent": "A relevant, comprehensive account makes the sequence and development of the presenting problem clear and logical.",
+        "veryGood": "A clear, relevant and logical account has minor omissions that do not obscure the presenting problem.",
+        "good": "The main complaint and chronology are understandable, with some gaps in relevant detail or organization.",
+        "average": "A partly relevant account has substantial gaps or an unclear chronology that limits understanding of the problem.",
+        "belowAverage": "A fragmented or largely irrelevant account leaves the presenting problem difficult to understand.",
+        "poor": "The assessed account contains no coherent history of the presenting problem or is predominantly incorrect."
+      },
+      "h2": {
+        "excellent": "Relevant supplementary histories are explored accurately and connected to the patient’s current problem and care.",
+        "veryGood": "Relevant supplementary histories are sound, with minor omissions that have little effect on understanding the case.",
+        "good": "The main supplementary information is obtained, with some relevant omissions or limited links to the current problem.",
+        "average": "Supplementary information is incomplete, with substantial gaps in clinically relevant history.",
+        "belowAverage": "Supplementary history is superficial or poorly relevant, leaving major information gaps.",
+        "poor": "The assessed response provides no meaningful supplementary history or is predominantly incorrect."
+      },
+      "h3": {
+        "excellent": "The presentation is clear, well organized and intelligible, with appropriate terminology and an effective clinical summary.",
+        "veryGood": "The presentation communicates the case effectively, with minor lapses in organization, terminology or clarity.",
+        "good": "The presentation is understandable, with some imprecision or uneven organization that does not obscure its main meaning.",
+        "average": "The main meaning is partly communicated, but unclear structure or imprecise language substantially limits the presentation.",
+        "belowAverage": "The presentation is difficult to follow and communicates little usable clinical information.",
+        "poor": "The assessed presentation conveys no coherent, understandable account of the case."
+      },
+      "e1": {
+        "excellent": "The relevant general examination is systematic, technically sound and respectful, with findings accurately recognized.",
+        "veryGood": "The relevant examination and findings are sound, with minor omissions or technique lapses.",
+        "good": "The main relevant examination is performed competently, with some omissions or limitations in technique or findings.",
+        "average": "The examination is partially adequate, with substantial omissions or technique problems that limit the findings.",
+        "belowAverage": "The examination is markedly incomplete or technically weak, with unreliable recognition of findings.",
+        "poor": "The assessed performance shows no meaningful general examination or predominantly incorrect examination methods."
+      },
+      "e2": {
+        "excellent": "The relevant regional examination is orderly and technically sound, protects patient comfort and communicates findings accurately.",
+        "veryGood": "The regional examination and findings are sound, with minor omissions or lapses in sequence or technique.",
+        "good": "The main relevant regional examination is demonstrated, with some omissions or limitations in technique or reporting.",
+        "average": "The examination is partially relevant but substantial gaps or technique problems reduce the usefulness of findings.",
+        "belowAverage": "The examination is poorly selected, markedly incomplete or technically weak, with unreliable findings.",
+        "poor": "The assessed performance shows no meaningful relevant regional examination or predominantly incorrect methods."
+      },
+      "d1": {
+        "excellent": "A defensible provisional diagnosis is supported by accurate, coherent reasoning that integrates the relevant case findings.",
+        "veryGood": "The diagnosis is defensible and well supported, with minor omissions or imprecision in its justification.",
+        "good": "A plausible diagnosis is supported by relevant findings, with some gaps in explanation or integration.",
+        "average": "The proposed diagnosis has partial support, but substantial reasoning gaps or inconsistencies weaken its defence.",
+        "belowAverage": "The diagnosis is weakly supported or poorly matched to the findings, with major errors in reasoning.",
+        "poor": "The assessed response offers no defensible provisional diagnosis or no coherent, relevant justification."
+      },
+      "d2": {
+        "excellent": "Relevant differential diagnoses are considered and distinguished logically using accurate case-specific evidence.",
+        "veryGood": "The relevant differentials and their exclusion are sound, with minor gaps in supporting reasons.",
+        "good": "Plausible differentials are considered, with some incomplete or imprecise reasoning about their likelihood.",
+        "average": "Some relevant differentials are identified, but substantial gaps or weak reasons limit their exclusion.",
+        "belowAverage": "Differentials are poorly relevant or justified, with major errors in distinguishing alternatives.",
+        "poor": "The assessed response offers no relevant differential diagnoses or no coherent reasoning about alternatives."
+      },
+      "i1": {
+        "excellent": "Relevant routine investigations are selected appropriately and clearly justified in relation to this patient’s assessment and care.",
+        "veryGood": "Routine investigation selection and justification are sound, with minor omissions or imprecision.",
+        "good": "The main routine investigations are relevant, with some gaps in selection or clinical justification.",
+        "average": "Suggestions are partly appropriate, but substantial omissions or weak explanations limit the investigation plan.",
+        "belowAverage": "The proposed routine investigations are poorly targeted or weakly justified, with major errors.",
+        "poor": "The assessed response offers no appropriate routine investigation plan or no coherent clinical justification."
+      },
+      "i2": {
+        "excellent": "Specific investigations are appropriate to the clinical question and clearly justified by their expected contribution to diagnosis or care.",
+        "veryGood": "Specific investigation selection and justification are sound, with minor omissions or imprecision.",
+        "good": "The main specific investigations are appropriate, with some gaps in their selection or expected clinical contribution.",
+        "average": "A partly relevant plan has substantial omissions or weak links between investigations and the clinical question.",
+        "belowAverage": "Specific investigations are poorly targeted or weakly justified, with major errors in clinical reasoning.",
+        "poor": "The assessed response offers no appropriate specific investigation plan or no coherent clinical justification."
+      },
+      "m1": {
+        "excellent": "A coherent and appropriate treatment plan is clearly justified, with relevant priorities and patient-specific considerations addressed.",
+        "veryGood": "The treatment plan and justification are sound, with minor omissions that do not materially alter its appropriateness.",
+        "good": "The main treatment approach is appropriate, with some omissions or limitations in its prioritization or justification.",
+        "average": "The plan is partly appropriate, but substantial gaps or weak reasoning limit its suitability for this patient.",
+        "belowAverage": "The treatment plan is poorly matched to the patient or weakly justified, with major clinical errors.",
+        "poor": "The assessed response offers no appropriate treatment plan or no coherent justification for treatment."
+      },
+      "m2": {
+        "excellent": "Relevant treatment complications are accurately explained with clear understanding of their clinical significance for this patient.",
+        "veryGood": "Relevant complications and their significance are described soundly, with minor omissions or imprecision.",
+        "good": "The main relevant complications are recognized, with some gaps in explanation or patient-specific significance.",
+        "average": "Some complications are recognized, but substantial omissions or inaccuracies limit the explanation.",
+        "belowAverage": "Recognition of relevant complications is markedly limited or includes major inaccuracies.",
+        "poor": "The assessed response identifies no relevant treatment complications or is predominantly incorrect."
+      },
+      "m3": {
+        "excellent": "An appropriate, coherent follow-up plan explains relevant review and monitoring in relation to this patient’s ongoing care.",
+        "veryGood": "The follow-up plan is sound and patient-relevant, with minor omissions or imprecision.",
+        "good": "The main follow-up needs are addressed, with some gaps in explanation or detail.",
+        "average": "The plan partly addresses ongoing care, but substantial gaps limit its clinical usefulness.",
+        "belowAverage": "Follow-up is vague, poorly relevant or markedly incomplete for the patient’s needs.",
+        "poor": "The assessed response offers no meaningful follow-up plan or is predominantly inappropriate."
+      },
+      "m4": {
+        "excellent": "Relevant recent advances are accurately explained, with a clear appraisal of their clinical relevance and evidence status.",
+        "veryGood": "Relevant advances and their clinical relevance are described soundly, with minor omissions or imprecision.",
+        "good": "Relevant advances are described accurately overall, with some gaps in explaining their evidence or clinical relevance.",
+        "average": "Some relevant developments are identified, but substantial gaps or inaccuracies limit their interpretation.",
+        "belowAverage": "The account of advances is poorly relevant or includes major inaccuracies or unsupported claims.",
+        "poor": "The assessed response describes no relevant recent advances or is predominantly incorrect."
+      }
+    },
+    "guidanceVersion": "Draft guidance v1 · unapproved",
+    "guidanceApproved": false,
+    "reviewer": "",
+    "reviewDate": ""
+  }
+}
